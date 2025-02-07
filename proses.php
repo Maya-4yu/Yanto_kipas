@@ -6,17 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>BIODATA SISWA</h1>
+<h1>BIODATA SISWA</h1>
     <form action="proses.php" method="post">
+    <tr>
         <p>Silahkan isi daftar berikut!</p>
-        NISN : <input type="number" name="nisn"> <br>
-        Nama Lengkap : <input type="text" name="nama lengkap"> <br>
-        Tempat Lahir : <input type="text" name="tempat lahir"> <br>
+        <td>NISN</td>
+        <td>:</td>
+        <td>
+            <?$_POST['nisn']?>
+        </td>
+    </tr>
 
+    <tr>
+        <td>Nama Lengkap</td>
+        <td> : </td>
+        <td>
+            <?$_POST['nama lengkap']?>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Tempat Lahir</td> 
+        <td>:</td>
+        <td>
+            <?$_POST['tempat lahir']?>
+        </td>
+    </tr>
+
+    <tr>
         <p>
             <label>Tanggal Lahir :</label>
-            <input type="date" name="tanggal">
+            <td>
+                <?$POST['tanggal lahir']?>
+            <td>
         </p>
+    </tr>
+
         <p>
             <label>Gender :</label>
             <input type="radio" name="gender" value="L">Laki-Laki
@@ -34,11 +59,26 @@
                 <option value="6">Konghucu</option>
             </select>
         </p>
+
+    <tr>
+        <td>
         <p>
             <p>Alamat :</p>
-            <textarea name="alamat" cols= "50" rows="10"></textarea>
+            <td>
+            <?$_POST['alamat']?>
+            </td>
         </p>
-        Asal Sekolah : <input type="text" name="asal sekolah"> <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Asal Sekolah</td>
+        <td>:</td>
+        <td>
+            <?$_POST['asal sekolah']?>
+        </td>
+    </tr>
+    
         <p>
             <label>Pilihan jurusan 1 :</label>
             <select name="Jurusan" id="">
