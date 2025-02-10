@@ -6,10 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-<h1>BIODATA SISWA</h1>
-    <form action="proses.php" method="post">
+    <?php
+    if(isset($_POST['submit']))
+    ?>
+
     <tr>
-        <p>Silahkan isi daftar berikut!</p>
         <td>NISN</td>
         <td>:</td>
         <td>
@@ -34,12 +35,10 @@
     </tr>
 
     <tr>
-        <p>
-            <label>Tanggal Lahir :</label>
+            <td>Tanggal Lahir :</td>
             <td>
                 <?$POST['tanggal lahir']?>
             <td>
-        </p>
     </tr>
 
         <p>
@@ -129,20 +128,20 @@
         </p>
         <p>
             <Label>Ekstrakurikuler :</Label>
-            <input type="checkbox" name="OSIS">Organisasi Siswa Intra Sekolah (OSIS)
-            <input type="checkbox" name="GDS">Gerakan Disiplin Siswa
-            <input type="checkbox" name="PASKIB">Paskibraka <br>
-            <input type="checkbox" name="REMAS">Remaja Masjid Al-Kautsar
-            <input type="checkbox" name="ENCASA">English Club Esemkasa
-            <input type="checkbox" name="PMR">Palang Merah Remaja <br>
-            <input type="checkbox" name="DA">Dewan Ambalan
-            <input type="checkbox" name="PA">Pecinta Alam
-            <input type="checkbox" name="LH">Laskar Hijau <br>
-            <input type="checkbox" name="FUTSAL">Futsal
-            <input type="checkbox" name="BASKET">Basket
-            <input type="checkbox" name="VOLY">Voly <br>
-            <input type="checkbox" name="TEATER">Teater Kusuma
-            <input type="checkbox" name="TARI">Tari
+            <input type="checkbox" name="OSIS[]">Organisasi Siswa Intra Sekolah (OSIS)
+            <input type="checkbox" name="GDS[]">Gerakan Disiplin Siswa
+            <input type="checkbox" name="PASKIB[]">Paskibraka <br>
+            <input type="checkbox" name="REMAS[]">Remaja Masjid Al-Kautsar
+            <input type="checkbox" name="ENCASA[]">English Club Esemkasa
+            <input type="checkbox" name="PMR[]">Palang Merah Remaja <br>
+            <input type="checkbox" name="DA[]">Dewan Ambalan
+            <input type="checkbox" name="PA[]">Pecinta Alam
+            <input type="checkbox" name="LH[]">Laskar Hijau <br>
+            <input type="checkbox" name="FUTSAL[]">Futsal
+            <input type="checkbox" name="BASKET[]">Basket
+            <input type="checkbox" name="VOLY[]">Voly <br>
+            <input type="checkbox" name="TEATER[]">Teater Kusuma
+            <input type="checkbox" name="TARI[]">Tari
         </p>
         <p>
             <input type="submit" name="submit" value="Daftar">
