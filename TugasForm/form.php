@@ -89,7 +89,7 @@
             </select>
         </p>
         <p>
-            <Label>Ekstrakurikuler :</Label>
+            <Label>Ekstrakurikuler :</Label for="ekstra" name="ekskul"> </Label>>
             <input type="checkbox" name="OSIS">Organisasi Siswa Intra Sekolah (OSIS)
             <input type="checkbox" name="GDS">Gerakan Disiplin Siswa
             <input type="checkbox" name="PASKIB">Paskibraka <br>
@@ -108,7 +108,7 @@
         <p>
             <input type="submit" name="submit" value="Daftar">
         </p>
-    </table>
+        </table>
     </form>
 </body>
 </html>
