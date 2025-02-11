@@ -8,6 +8,7 @@
 <body>
     <h1>BIODATA SISWA</h1>
     <form action="proses.php" method="post">
+        <table>
         <p>Silahkan isi daftar berikut!</p>
         NISN : <input type="number" name="nisn"> <br>
         Nama Lengkap : <input type="text" name="nama lengkap"> <br>
@@ -107,6 +108,7 @@
         <p>
             <input type="submit" name="submit" value="Daftar">
         </p>
+    </table>
     </form>
 </body>
 </html>
