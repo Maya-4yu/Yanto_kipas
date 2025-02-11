@@ -104,7 +104,7 @@
         <td>Ekstrakurikuler</td>
         <td>:</td>
         <td>
-        <?=implode(",",$_POST['eskul']); ?>
+        <?=implode(",",$_POST['ekskul']); ?>
         </td>
     </tr>
 
