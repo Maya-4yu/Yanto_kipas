@@ -89,7 +89,7 @@
             </select>
         </p>
         <p>
-            <Label>Ekstrakurikuler :</Label for="ekstra" name="ekskul"> </Label>>
+            Ekstrakurikuler: <Label for="ekstra" name="ekskul"> </Label>
             <input type="checkbox" name="OSIS">Organisasi Siswa Intra Sekolah (OSIS)
             <input type="checkbox" name="GDS">Gerakan Disiplin Siswa
             <input type="checkbox" name="PASKIB">Paskibraka <br>
