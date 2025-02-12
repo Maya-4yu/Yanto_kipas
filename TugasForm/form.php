@@ -90,14 +90,17 @@
         <p>
             Ekstrakurikuler: <Label for="ekstra" name="ekskul"> </Label>
             <input type="checkbox" value="OSIS"name="ekskul[]">Organisasi Siswa Intra Sekolah (OSIS)
-            <input type="checkbox" value="GDS"name="ekskul[]">Gerakan Disiplin Siswa
-            <input type="checkbox" value="Paskibra"name="ekskul[]">Paskibraka <br>
-            <input type="checkbox" value="Remas"name="ekskul[]">Remaja Masjid Al-Kautsar
-            <input type="checkbox" value="EC"name="ekskul[]">English Club Esemkasa
+            <input type="checkbox" value="GDS"name="ekskul[]">Gerakan Disiplin Siswa (GDS)
+            <input type="checkbox" value="PASKIB"name="ekskul[]">Paskibraka <br>
+            <input type="checkbox" value="REMAS"name="ekskul[]">Remaja Masjid Al-Kautsar
+            <input type="checkbox" value="ENCASA"name="ekskul[]">English Club Esemkasa
             <input type="checkbox" value="PMR"name="ekskul[]">Palang Merah Remaja <br>
+            <input type="checkbox" value="DA"name="ekskul[]">Dewan Ambalan
+            <input type="checkbox" value="PA"name="ekskul[]">Pecinta Alam
+            <input type="checkbox" value="LH"name="ekskul[]">Laskar Hijau<br>
             <input type="checkbox" value="FS"name="ekskul[]">Futsal
             <input type="checkbox" value="Basket"name="ekskul[]">Basket
-            <input type="checkbox" value="Volly"name="ekskul[]">Voly <br>
+            <input type="checkbox" value="Volly"name="ekskul[]">Volly <br>
             <input type="checkbox" value="TK"name="ekskul[]">Teater Kusuma
             <input type="checkbox" value="Tari"name="ekskul[]">Tari
         </p>
