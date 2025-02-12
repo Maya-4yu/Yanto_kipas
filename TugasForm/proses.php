@@ -80,7 +80,7 @@
         <td>Pilihan jurusan 1</td>
         <td>:</td>
         <td>
-            <?=$_POST['Jurusan']?>
+            <?=$_POST['Jurusan1']?>
         </td>
     </tr>
 
@@ -88,7 +88,7 @@
         <td>Pilihan jurusan 2</td>
         <td>:</td>
         <td>
-            <?=$_POST['Jurusan']?>
+            <?=$_POST['Jurusan2']?>
         </td>
     </tr>
 
@@ -96,7 +96,7 @@
         <td>Pilihan jurusan 3</td>
         <td>:</td>
         <td>
-            <?=$_POST['Jurusan']?>
+            <?=$_POST['Jurusan3']?>
         </td>
     </tr>
 

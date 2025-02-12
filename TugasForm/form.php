@@ -41,7 +41,7 @@
         Asal Sekolah : <input type="text" name="asalsekolah"> <br>
         <p>
             <label>Pilihan jurusan 1 :</label>
-            <select name="Jurusan" id="">
+            <select name="Jurusan1" id="">
                 <option value=".">Silahkan pilih jurusan anda</option>
                 <option value="MPLB">Manajemen Perkantoran & Layanan Bisnis </option>
                 <option value="AKL">Akuntansi Keuangan Lembaga</option>
@@ -57,7 +57,7 @@
         </p>
         <p>
             <label>Pilihan jurusan 2 :</label>
-            <select name="Jurusan" id="">
+            <select name="Jurusan2" id="">
                 <option value=".">Silahkan pilih jurusan anda</option>
                 <option value="MPLB">Manajemen Perkantoran & Layanan Bisnis </option>
                 <option value="AKL">Akuntansi Keuangan Lembaga</option>
@@ -73,7 +73,7 @@
         </p>
         <p>
             <label>Pilihan jurusan 3 :</label>
-            <select name="Jurusan" id="">
+            <select name="Jurusan3" id="">
                 <option value=".">Silahkan pilih jurusan anda</option>
                 <option value="MPLB">Manajemen Perkantoran & Layanan Bisnis </option>
                 <option value="AKL">Akuntansi Keuangan Lembaga</option>
