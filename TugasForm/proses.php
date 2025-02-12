@@ -16,7 +16,7 @@
         <td>NISN</td>
         <td>:</td>
         <td>
-            <?$_POST['nisn']?>
+            <?=$_POST['nisn']?>
         </td>
     </tr>
 
@@ -24,7 +24,7 @@
         <td>Nama Lengkap</td>
         <td> : </td>
         <td>
-            <?$_POST['nama lengkap']?>
+            <?=$_POST['namalengkap']?>
         </td>
     </tr>
 
@@ -32,7 +32,7 @@
         <td>Tempat Lahir</td> 
         <td>:</td>
         <td>
-            <?$_POST['tempat lahir']?>
+            <?=$_POST['tempatlahir']?>
         </td>
     </tr>
 
@@ -40,7 +40,7 @@
         <td>Tanggal Lahir</td>
         <td>:</td>
         <td>
-            <?$_POST['tanggal']?>
+            <?=$_POST['tanggal']?>
         </td>
     </tr>
 
@@ -48,7 +48,7 @@
         <td>Gender</td>
         <td>:</td>
         <td>
-            <?$_POST['gender']?>
+            <?=$_POST['gender']?>
         </td>
     </tr>
 
@@ -56,7 +56,7 @@
         <td>Agama</td>
         <td>:</td>
         <td>
-            <?$_POST['Agama']?>
+            <?=$_POST['Agama']?>
         </td>
     </tr>
 
@@ -64,7 +64,7 @@
         <td>Alamat</td>
         <td>:</td>
         <td>
-            <?$_POST['alamat']?>
+            <?=$_POST['alamat']?>
         </td>
     </tr>
 
@@ -72,7 +72,7 @@
         <td>Asal Sekolah</td>
         <td>:</td>
         <td>
-            <?$_POST['asal sekolah']?>
+            <?=$_POST['asalsekolah']?>
         </td>
     </tr>
     
@@ -80,7 +80,7 @@
         <td>Pilihan jurusan 1</td>
         <td>:</td>
         <td>
-            <?$_POST['Jurusan']?>
+            <?=$_POST['Jurusan']?>
         </td>
     </tr>
 
@@ -88,7 +88,7 @@
         <td>Pilihan jurusan 2</td>
         <td>:</td>
         <td>
-            <?$_POST['Jurusan']?>
+            <?=$_POST['Jurusan']?>
         </td>
     </tr>
 
@@ -96,7 +96,7 @@
         <td>Pilihan jurusan 3</td>
         <td>:</td>
         <td>
-            <?$_POST['Jurusan']?>
+            <?=$_POST['Jurusan']?>
         </td>
     </tr>
 
@@ -104,7 +104,7 @@
         <td>Ekstrakurikuler</td>
         <td>:</td>
         <td>
-        <?=implode(",",$_POST['ekskul']); ?>
+        <?=implode(",",$_POST['ekskul'])?>
         </td>
     </tr>
 

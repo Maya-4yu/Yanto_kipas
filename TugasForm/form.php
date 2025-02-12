@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form.php</title>
 </head>
 <body>
     <h1>BIODATA SISWA</h1>
     <form action="proses.php" method="post">
-        <table>
         <p>Silahkan isi daftar berikut!</p>
         NISN : <input type="number" name="nisn"> <br>
-        Nama Lengkap : <input type="text" name="nama lengkap"> <br>
-        Tempat Lahir : <input type="text" name="tempat lahir"> <br>
+        Nama Lengkap : <input type="text" name="namalengkap"> <br>
+        Tempat Lahir : <input type="text" name="tempatlahir"> <br>
 
         <p>
             <label>Tanggal Lahir :</label>
@@ -39,7 +38,7 @@
             <p>Alamat :</p>
             <textarea name="alamat" cols= "50" rows="10"></textarea>
         </p>
-        Asal Sekolah : <input type="text" name="asal sekolah"> <br>
+        Asal Sekolah : <input type="text" name="asalsekolah"> <br>
         <p>
             <label>Pilihan jurusan 1 :</label>
             <select name="Jurusan" id="">
@@ -90,25 +89,21 @@
         </p>
         <p>
             Ekstrakurikuler: <Label for="ekstra" name="ekskul"> </Label>
-            <input type="checkbox" name="OSIS">Organisasi Siswa Intra Sekolah (OSIS)
-            <input type="checkbox" name="GDS">Gerakan Disiplin Siswa
-            <input type="checkbox" name="PASKIB">Paskibraka <br>
-            <input type="checkbox" name="REMAS">Remaja Masjid Al-Kautsar
-            <input type="checkbox" name="ENCASA">English Club Esemkasa
-            <input type="checkbox" name="PMR">Palang Merah Remaja <br>
-            <input type="checkbox" name="DA">Dewan Ambalan
-            <input type="checkbox" name="PA">Pecinta Alam
-            <input type="checkbox" name="LH">Laskar Hijau <br>
-            <input type="checkbox" name="FUTSAL">Futsal
-            <input type="checkbox" name="BASKET">Basket
-            <input type="checkbox" name="VOLY">Voly <br>
-            <input type="checkbox" name="TEATER">Teater Kusuma
-            <input type="checkbox" name="TARI">Tari
+            <input type="checkbox" value="OSIS"name="ekskul[]">Organisasi Siswa Intra Sekolah (OSIS)
+            <input type="checkbox" value="GDS"name="ekskul[]">Gerakan Disiplin Siswa
+            <input type="checkbox" value="Paskibra"name="ekskul[]">Paskibraka <br>
+            <input type="checkbox" value="Remas"name="ekskul[]">Remaja Masjid Al-Kautsar
+            <input type="checkbox" value="EC"name="ekskul[]">English Club Esemkasa
+            <input type="checkbox" value="PMR"name="ekskul[]">Palang Merah Remaja <br>
+            <input type="checkbox" value="FS"name="ekskul[]">Futsal
+            <input type="checkbox" value="Basket"name="ekskul[]">Basket
+            <input type="checkbox" value="Volly"name="ekskul[]">Voly <br>
+            <input type="checkbox" value="TK"name="ekskul[]">Teater Kusuma
+            <input type="checkbox" value="Tari"name="ekskul[]">Tari
         </p>
         <p>
             <input type="submit" name="submit" value="Daftar">
         </p>
-        </table>
     </form>
 </body>
 </html>
