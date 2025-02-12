@@ -21,9 +21,9 @@
 
 <body>
     <h1>Aplikasi Penghitung Gaji</h1>
+    <h2>PT CV. TeknoNusa</h2>
     <form action="Hitunggaji.php" method="post">
     <table border=1 style="border-colaapse : collapse : width : 50%">
-            
         <tr>
             <td>Silahkan isi data diri anda!</td>
         </tr>
